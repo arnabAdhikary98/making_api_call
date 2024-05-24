@@ -1,8 +1,8 @@
-function Post({ title, body }) {
+function Post({ first_name, last_name, avatar }) {
   return (
     <div>
-      <p>Title : {title}</p>
-      <p>Body : {body}</p>
+      <img src={avatar} alt="" />
+      <p>Name : {first_name} {last_name}</p>
     </div>
   );
 }
